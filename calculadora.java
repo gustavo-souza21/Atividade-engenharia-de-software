@@ -1,21 +1,16 @@
 public class Calculadora {
-
-    // feat: adiciona função de soma
     public double somar(double a, double b) {
         return a + b;
     }
 
-    // feat: adiciona função de subtração
     public double subtrair(double a, double b) {
         return a - b;
     }
 
-    // feat: adiciona função de multiplicação
     public double multiplicar(double a, double b) {
         return a * b;
     }
 
-    // feat: adiciona função de divisão
     public double dividir(double a, double b) {
         if (b == 0) {
             throw new ArithmeticException("Erro: divisão por zero não é permitida.");
